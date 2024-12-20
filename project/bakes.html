@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Delights Bakery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fffaf0;
+            color: #333;
+        }
+        header {
+            background-color: #ff6f61;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ffd700;
+            padding: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ff6f61;
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        .offer {
+            background-color: #fce4ec;
+            margin: 20px auto;
+            padding: 15px;
+            border: 2px dashed #ff6f61;
+            border-radius: 8px;
+            max-width: 500px;
+        }
+        .product-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .product {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            width: 200px;
+            background-color: #fff;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+        .product h3 {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px; 
+            background-color: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            font size: 18px;            
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <header>
+        <h1>Sweet Delights Bakery</h1>
+        <p>Your one-stop shop for cakes, sweets, biscuits, and more!</p>
+    </header>
+    <nav>
+        <a href="#cakes">Cakes</a>
+        <a href="#sweets">Sweets</a>
+        <a href="#biscuits">Biscuits</a>
+        <a href="#offers">Special Offers</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <h2 id="cakes">Cakes</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="C:\Users\LENOVO\Downloads\pexels-nord6-1775285.jpg" alt="Chocolate Cake">
+                <h3>Chocolate Cake</h3>
+            </div>
+            <div class="product">
+                <img src="C:\Users\LENOVO\Desktop\project\Vennila cake.jpg" alt="Vanilla Cake">
+                <h3>Vanilla Cake</h3>
+            </div>
+        </div>
+        <h2 id="sweets">Sweets</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="C:\Users\LENOVO\Desktop\project\gulab jam.jpg" alt="Gulab Jamun">
+                <h3>Gulab Jamun</h3>
+            </div>
+            <div class="product">
+                <img src="C:\Users\LENOVO\Downloads\pexels-lara-jameson-8887055 (1).jpg" alt="Ladoo">
+                <h3>Ladoo</h3>
+            </div>
+        </div>
+        <h2 id="biscuits">Biscuits</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="C:\Users\LENOVO\Downloads\pexels-roman-odintsov-6088611.jpg" alt="Butter Cookies">
+                <h3>Butter Cookies</h3>
+            </div>
+            <div class="product">
+                <img src="C:\Users\LENOVO\Desktop\project\Oatmeal Biscuits.jpg" alt="Oatmeal Biscuits">
+                <h3>Oatmeal Biscuits</h3>
+            </div>
+        </div>
+        <h2 id="offers">Special Offers</h2>
+        <div class="offer">
+            <h3>Birthday Offer</h3>
+            <p>Get 20% off on custom birthday cakes!</p>
+        </div>
+        <div class="offer">
+            <h3>Christmas Offer</h3>
+            <p>Buy 1 get 1 free on Christmas cookies and cakes!</p>
+        </div>
+    </div>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: support@delights.com</p>
+        <p>Mobile: 022-1234-5678</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Sweet Delights Bakery. All rights reserved.</p>
+    </footer>
+</body>
+</html>
